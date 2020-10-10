@@ -1,0 +1,24 @@
+.myinfo {
+    color: white;
+    padding-top: 100px;
+    height: 100vh;
+    padding-left: 20px;
+    padding-bottom: 50px;
+}
+.myinfo__details > p {
+    justify-content: center;
+    display: flex;
+    font-size: 50px;
+}
+.myimage {
+    height: 113px;
+    background-image: url(../src/images/mypic1.jpg);
+    width: 113px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 75px;
+    border: 5px solid #6294df;
+}
+.MuiSvgIcon-root {
+    height: 2em;
+}

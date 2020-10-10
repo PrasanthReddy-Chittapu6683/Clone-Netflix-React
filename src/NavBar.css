@@ -1,0 +1,179 @@
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    height: 25px;
+    z-index: 1;
+
+    transition-timing-function: ease-in;
+    transition: all 0.5s;
+}
+.nav__black {
+    background-color: #111;
+
+    /* background-image: linear-gradient(360deg, transparent, rgba(0, 0, 0, 0.733), #111); */
+}
+
+.nav__logo {
+    position: fixed;
+    left: 20px;
+    object-fit: contain;
+    width: 80px;
+}
+.nav__avatar {
+    position: fixed;
+    right: 20px;
+    top: 15px;
+    vertical-align: middle;
+    height: 30px;
+    width: 30px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 0px;
+}
+
+ul.tabbed-primary-navigation {
+    margin: 0;
+    padding: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: white;
+    margin-left: 100px;
+}
+.navigation-menu {
+    margin-left: 20px;
+    list-style-type: none;
+}
+.navigation-tab {
+    margin-left: 20px;
+    list-style-type: none;
+}
+a.current.active {
+    position: relative;
+    color: #e5e5e5;
+    -webkit-transition: color 0.4s;
+    -o-transition: color 0.4s;
+    -moz-transition: color 0.4s;
+    transition: color 0.4s;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100%;
+    text-decoration: none;
+    cursor: default;
+}
+.navigation-tab a.current {
+    color: #fff;
+    font-weight: 700;
+    cursor: default;
+}
+.tabbed-primary-navigation .navigation-tab a {
+    position: relative;
+    color: #e5e5e5;
+    -webkit-transition: color 0.4s;
+    -o-transition: color 0.4s;
+    -moz-transition: color 0.4s;
+    transition: color 0.4s;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100%;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.sub-menu.theme-lakira {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    top: 71px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #fff;
+    font-size: 13px;
+    line-height: 21px;
+    border: solid 1px rgba(255, 255, 255, 0.15);
+    cursor: default;
+    opacity: 0;
+}
+.navigation-menu .sub-menu .callout-arrow {
+    position: absolute;
+    top: -16px;
+    left: 50%;
+    border-width: 7px;
+    margin-left: -7px;
+    border-color: transparent transparent #e5e5e5;
+    border-style: solid;
+    height: 0;
+    width: 0;
+}
+.sub-menu.theme-lakira > .topbar {
+    position: absolute;
+    top: -2px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: #e5e5e5;
+}
+.navigation-menu .sub-menu .sub-menu-item a:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+.navigation-menu .sub-menu .sub-menu-item a.current {
+    color: #fff;
+    font-weight: 700;
+    cursor: default;
+}
+.navigation-menu .sub-menu .sub-menu-item a {
+    width: 260px;
+    height: 50px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    color: #b3b3b3;
+    -webkit-transition: background-color 0.4s;
+    -o-transition: background-color 0.4s;
+    -moz-transition: background-color 0.4s;
+    transition: background-color 0.4s;
+}
+.sub-menu.theme-lakira .sub-menu-item,
+.sub-menu.theme-lakira .sub-menu-item-special {
+    cursor: default;
+    line-height: 24px;
+    display: block;
+}

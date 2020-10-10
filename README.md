@@ -1,5 +1,39 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+
+## Steps to Setup & Run Application:
+
+*   Create Application: __`npx create-react-app react-netflix-clone`__
+*   Run application: __`npm start`__
+*   Create setup in Firebase for DB and Hosting: __`https://console.firebase.google.com/`__
+*   Get the list of movies/series details from TMDB site : __`https://www.themoviedb.org/u/`__
+*   Install Routing for React: __`npm i react-router-dom`__
+*   Install Axios for HTTP calls: __`npm i axios`__
+*   Install Youtube react: __`npm i react-youtube`__
+*   Install Youtube react: __`npm i movie-trailer`__
+*   To get image slider: __`npm i react-material-ui-carousel`__
+*   To get material-ui: __`npm install @material-ui/core`__
+*   To get material-ui icons: __`npm install @material-ui/icons`__
+
+
+
+## Steps to Deploy Application:
+
+*   Insall Firebase : __`npm install -g firebase-tools`__
+*   Next login to Firebase account : __`firebase login`__
+*   Next initialize your project to Firebase repository: __`firebase init`__ While initializing the setup provide below settings
+    * ? Are you ready to proceed? Yes
+    * Please select an option: Use an existing project
+    * ? What do you want to use as your public directory? build
+    * ? Configure as a single-page app (rewrite all urls to /index.html)? (y/N) y
+    * ? File build/index.html already exists. Overwrite? Yes
+*   Next Create a build setup to deploy : __`npm run build`__
+*   Host application to firebase : __`firebase deploy`__
+*   After succful deployment application is installed in URL (https://prcv-netflix-clone.web.app/)
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:

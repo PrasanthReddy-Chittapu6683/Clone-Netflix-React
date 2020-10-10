@@ -1,0 +1,52 @@
+.row {
+    margin-left: 20px;
+    color: white;
+}
+.row__posters {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+}
+.row__posters::-webkit-scrollbar {
+    display: none;
+}
+
+.row__poster {
+    object-fit: contain;
+    width: 100%;
+    max-height: 100px;
+    margin-right: 10px;
+    transition: transform 550ms;
+}
+.row__poster:hover {
+    transform: scale(1.08);
+}
+.row__posterLarge {
+    max-height: 400px;
+}
+.row__posterLarge:hover {
+    transform: scale(1.09);
+    opacity: 1;
+}
+.row__closeTrailer {
+    float: right;
+    margin-right: 20px;
+    border: none;
+    background-color: transparent;
+    color: #878787;
+    font-size: 25px;
+    cursor: pointer;
+}
+.row_tailerInfo > small {
+    font-size: 12px;
+    font-style: italic;
+    color: #bababa;
+}
+.row__moviereleasedate,
+.row__movieVotes {
+    font-size: 9px;
+    font-style: italic;
+    color: #bababa;
+    margin-left: 15px;
+}
